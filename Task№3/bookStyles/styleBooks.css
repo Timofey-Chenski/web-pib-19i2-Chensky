@@ -1,0 +1,50 @@
+title {
+	font-family: 'Arimo'; 
+	font-size:20pt;
+	color: #333;
+}
+body {
+  background-image: url('images/library_background.jpg');
+}
+
+header {
+	color: #FFFFFF;
+	background-color:#006400;
+	width: 100%
+}
+
+ul {
+	display: flex; 
+	justify-content: space-around; 
+	font-family: 'Arimo';
+	
+	}
+	img {
+		border: 5px solid #000;
+	}
+	a {
+  background-color: #006400;
+  color: white;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+}
+
+	p {
+		background-color: #006400;
+		font-family: 'Arimo'; 
+		text-align:center ;
+		font-size:18pt;
+		color: #FFFFFF;
+		border: 5px solid #999;
+		width: 50%;
+	}
+footer {
+	
+    position: fixed; 
+    left: 0; bottom: 0; 
+    padding: 10px; 
+    background: #006400; 
+    color: #fff; 
+   
+   }
+
