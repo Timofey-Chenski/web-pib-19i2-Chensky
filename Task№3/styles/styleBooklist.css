@@ -1,0 +1,68 @@
+
+   
+    
+  
+title {
+	font-family: 'Arimo'; 
+	font-size:20pt;
+	color: #333;
+}
+body {
+  background-image: url('images/library_background.jpg');
+}
+
+header {
+	color: #FFFFFF;
+	background-color:#006400;
+	width: 100%
+}
+
+ul {
+	display: flex; 
+	justify-content: space-around; 
+	font-family: 'Arimo';
+	
+	}
+	a {
+  background-color: #006400;
+  color: white;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+}
+.BookLi ul {
+		list-style-type:none;
+		padding-left:10 px;
+		margin-left:10 px;
+		display: flex; 
+		justify-content: space-around; 
+		
+	
+}
+.BookLi a {
+	background-color: #006400;
+	color: white;
+	font-family: 'Arimo';
+	margin-top:50 px;
+	margin-bottom:50 px;
+	text-transform: uppercase;
+}
+.BookLi li {
+	line-height: 5;
+}
+	p {
+		background-color: #006400;
+		font-family: 'Arimo'; 
+		font-size:18pt;
+		color: #FFFFFF;
+		border: 5px solid #999;
+		width: 70%;
+	}
+footer {
+    position: fixed; 
+    left: 0; bottom: 0; 
+    padding: 10px; 
+    background: #006400; 
+    color: #fff; 
+    width: 100%; 
+   }
+
