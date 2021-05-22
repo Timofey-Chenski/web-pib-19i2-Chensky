@@ -1,7 +1,4 @@
-
-   
-    
-  
+ 
 title {
 	font-family: 'Arimo'; 
 	font-size:20pt;
@@ -29,7 +26,9 @@ ul {
   padding: 1em 1.5em;
   text-transform: uppercase;
 }
-
+input {
+		
+}
 	p {
 		background-color: #006400;
 		font-family: 'Arimo'; 
