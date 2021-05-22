@@ -1,0 +1,48 @@
+ 
+title {
+	font-family: 'Arimo'; 
+	font-size:20pt;
+	color: #333;
+}
+body {
+  background-image: url('images/library_background.jpg');
+}
+
+header {
+	color: #FFFFFF;
+	background-color:#006400;
+	width: 100%
+}
+
+ul {
+	display: flex; 
+	justify-content: space-around; 
+	font-family: 'Arimo';
+	
+	}
+	a {
+  background-color: #006400;
+  color: white;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+}
+input {
+		
+}
+	p {
+		background-color: #006400;
+		font-family: 'Arimo'; 
+		font-size:18pt;
+		color: #FFFFFF;
+		border: 5px solid #999;
+		width: 70%;
+	}
+footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #006400; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+
